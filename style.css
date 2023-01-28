@@ -1,14 +1,13 @@
 body {
   background-image: url(img/halodoc.jpg);
-  height: 500px;
-  background-size: cover;
-  background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.navbar {
-  top: 0;
-  position: sticky;
-}
+/* navbar */
 .navbar-brand {
   color: #472183;
 }
@@ -30,32 +29,41 @@ body {
 .login {
   color: #472183;
 }
-.btn {
+.navbar-nav .btn {
   color: #472183;
   border: 2px solid #472183;
   border-radius: 0%;
 }
-.btn:hover {
+.navbar-nav .btn:hover {
   color: #472183;
   border: 2px solid #472183;
   text-decoration: underline;
 }
-.halo {
+/* akhir navbar */
+
+/* hero */
+.hero-tag h1 {
   color: #472183;
 }
-.lead {
-  color: #472183;
+.hero-tag p {
+  font-size: 18px;
 }
-.jumbotron .btn {
+.p1 {
+  color: #472183;
+  width: 450px;
+}
+.p2 {
+  width: 450px;
+}
+#hero .btn {
   background-color: #472183;
+  border-radius: 0;
 }
+/* akhir hero */
+
+/* footer */
 footer {
   background-color: #472183;
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  margin-top: auto;
 }
-footer .row {
-}
+/* akhir footer */
